@@ -29,7 +29,7 @@ roofline_point = 5
 # Exclude benchmarks from the results
 bench_excludes = c(
 	"atax","bicg","gesummv","mvt", # Because these run only 1 threadblock
-	"sad", # Because the memory accesses are atomic
+	"sad","bfs", # Because the memory accesses are atomic
 	"syrk" # Curious results: require further investigation
 	)
 
@@ -85,7 +85,7 @@ for (config in 1:4) {
 		par(mfrow=c(1, 4))
 		types = c(99)
 		pids = c(1,6,7,8)
-		legendpids = c(6,7)
+		legendpids = c(1,6,7,8)
 		db = fulldb[fulldb$type==0,]
 	}
 	# Configure for microbenchmarks only (full details)
@@ -124,7 +124,7 @@ for (config in 1:4) {
 		dbs = db
 		if (s==1) { legendposy = 0.6; legendposx = 0.86; legendcols = 2; legendsize = 0.6 }
 		if (s==2) { legendposy = 0.6; legendposx = 0.86; legendcols = 2; legendsize = 0.6 }
-		if (s==99) { legendcols = 1; legendposx = 2; legendposy = 0.35; legendsize = 0.7 }
+		if (s==99) { legendcols = 1; legendposx = 2.5; legendposy = 0.35; legendsize = 0.7 }
 		
 		# Loop over the plots
 		for (pid in pids) {
@@ -206,6 +206,8 @@ for (config in 1:4) {
 									powerstring = p(p(" (", as.integer(default$dynpower)), "W)")
 								} else if (pid %in% c(3,7)) {
 									powerstring = p(p(" (", as.integer(default$totalpower)), "W)")
+								} else if (config %in% c(1)) {
+									powerstring = ""
 								} else {
 									powerstring = p(p(" (", default$int_bytes), ")")
 								}
@@ -237,6 +239,12 @@ for (config in 1:4) {
 				# Add an extra line
 				if (config == 3 && s==1 && pid==8) {
 					abline(v=7.6, col=lgray, lty=1, lwd=3, xpd=T)
+				}
+				
+				# Add circles for the microbenchmarks
+				if (config == 1 && pid == 8) {
+					text(1.05, 1.56, labels="58%", col=lgray, cex=1, xpd=T, pos=4)
+					text(7, 1.27, labels="2%", col=lgray, cex=1, xpd=T, pos=1)
 				}
 			}
 		}
