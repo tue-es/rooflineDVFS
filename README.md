@@ -3,12 +3,11 @@
 Roofline-aware DVFS for GPUs
 =============
 
-	README
-	http://github.com/cnugteren/rooflineDVFS
-	16-Oct-2013
-	Cedric Nugteren http://www.cedricnugteren.nl
+Date: 16-Oct-2013
 
-This repository is an online appendix to the
+Author: Cedric Nugteren (http://www.cedricnugteren.nl)
+
+Description: This repository is an online appendix to the
 scientific article "Roofline-aware DVFS for GPUs"
 
 
@@ -26,6 +25,7 @@ Experimental setup
 =============
 
 GPGPU-Sim version 3.2.1 + GPUWattch
+
 (commit 72aaaf6b11b38121d946469f26d85315ff794f29)
 
 Configuration for GPGPU-Sim
@@ -35,9 +35,9 @@ Configuration for GPGPU-Sim
 
 		-gpgpu_clock_domains XXX:YYY:XXX:ZZZ
 
-	XXX is the halved core frequency (600-500-400-300)
-	YYY is the full core frequency (1200-1000-800-600)
-	ZZZ is the memory frequency (900-750-600-450)
+	XXX is the halved core frequency (600-500-400-300).
+	YYY is the full core frequency (1200-1000-800-600).
+	ZZZ is the memory frequency (900-750-600-450).
 
 *	DRAM latencies:
 
@@ -45,7 +45,7 @@ Configuration for GPGPU-Sim
 
 	XXX is the DRAM latency is core clock cycles, reduced
 	when scaling the core frequency to keep the latency
-	(in seconds) constant (100-83-76-50)
+	(in seconds) constant (100-83-76-50).
 
 Configuration for GPUWattch
 -------------
@@ -57,7 +57,7 @@ Configuration for GPUWattch
 
 	XXX is the doubled memory clock or the halved effective
 	clock (1800-1500-1200-900). YYY is the bandwidth per
-	memory controller (28800-24000-19200-14400)
+	memory controller (28800-24000-19200-14400).
 
 *	Clock frequencies:
 
@@ -105,7 +105,7 @@ Contents of the repository
 *	*process.r*
 
 	An R-script to process the raw simulation data and
-	output a database in CSV format (in results folder)
+	output a database in CSV format (in results folder).
 
 *	*graph.r*
 
