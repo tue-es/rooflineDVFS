@@ -1,0 +1,16 @@
+GPGPU-Sim PTX: pushing kernel '_Z29cuda_cutoff_potential_latticeiiP6float4fffPfi' to stream 0, gridDim= (104,26,1) blockDim = (8,8,2) 
+gpu_sim_cycle = 18189534
+gpu_ipc =     665.9515
+total_dl1_misses=832603
+total_dl1_accesses=1811680
+total_dl1_miss_rate= 0.459575
+gpgpu_stall_shd_mem[gl_mem][coal_stall] = 903136
+L2 Cache Total Miss Rate = 0.021
+GPGPU-Sim PTX: pushing kernel '_Z29cuda_cutoff_potential_latticeiiP6float4fffPfi' to stream 0, gridDim= (104,26,1) blockDim = (8,8,2) 
+gpu_sim_cycle = 22213462
+gpu_ipc =     664.4688
+total_dl1_misses=1656934
+total_dl1_accesses=3623360
+total_dl1_miss_rate= 0.457292
+gpgpu_stall_shd_mem[gl_mem][coal_stall] = 1806272
+L2 Cache Total Miss Rate = 0.021

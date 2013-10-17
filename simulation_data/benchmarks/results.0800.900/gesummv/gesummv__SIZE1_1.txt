@@ -1,0 +1,8 @@
+GPGPU-Sim PTX: pushing kernel '_Z14gesummv_kernelPfS_S_S_S_' to stream 0, gridDim= (1,1,1) blockDim = (1024,1,1) 
+gpu_sim_cycle = 92692954
+gpu_ipc =       0.1813
+total_dl1_misses=2202068
+total_dl1_accesses=2228256
+total_dl1_miss_rate= 0.988247
+gpgpu_stall_shd_mem[gl_mem][coal_stall] = 92417579
+L2 Cache Total Miss Rate = 0.927

@@ -1,0 +1,16 @@
+GPGPU-Sim PTX: pushing kernel '_Z27performStreamCollide_kernelPfS_' to stream 0, gridDim= (120,150,1) blockDim = (120,1,1) 
+gpu_sim_cycle = 40654251
+gpu_ipc =      13.9184
+total_dl1_misses=20478858
+total_dl1_accesses=27000000
+total_dl1_miss_rate= 0.758476
+gpgpu_stall_shd_mem[gl_mem][coal_stall] = 559098222
+L2 Cache Total Miss Rate = 0.381
+GPGPU-Sim PTX: pushing kernel '_Z27performStreamCollide_kernelPfS_' to stream 0, gridDim= (120,150,1) blockDim = (120,1,1) 
+gpu_sim_cycle = 40012071
+gpu_ipc =      14.1418
+total_dl1_misses=40880637
+total_dl1_accesses=54000000
+total_dl1_miss_rate= 0.757049
+gpgpu_stall_shd_mem[gl_mem][coal_stall] = 1109228672
+L2 Cache Total Miss Rate = 0.376

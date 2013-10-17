@@ -1,0 +1,8 @@
+GPGPU-Sim PTX: pushing kernel '_Z7bwbenchPjS_' to stream 0, gridDim= (224,1,1) blockDim = (512,1,1) 
+gpu_sim_cycle = 843257
+gpu_ipc =      18.9048
+total_dl1_misses=229376
+total_dl1_accesses=229376
+total_dl1_miss_rate= 1.000000
+gpgpu_stall_shd_mem[gl_mem][coal_stall] = 9874302
+L2 Cache Total Miss Rate = 1.000

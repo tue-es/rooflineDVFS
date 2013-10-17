@@ -1,0 +1,8 @@
+GPGPU-Sim PTX: pushing kernel '_Z11syrk_kernelffPfS_' to stream 0, gridDim= (256,1,1) blockDim = (1024,1,1) 
+gpu_sim_cycle = 165642214
+gpu_ipc =       8.9860
+total_dl1_misses=136573590
+total_dl1_accesses=138420224
+total_dl1_miss_rate= 0.986659
+gpgpu_stall_shd_mem[gl_mem][coal_stall] = -2073108910
+L2 Cache Total Miss Rate = 0.009

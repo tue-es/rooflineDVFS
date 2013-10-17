@@ -1,0 +1,24 @@
+GPGPU-Sim PTX: pushing kernel '_Z11mb_sad_calcPtS_ii' to stream 0, gridDim= (480,268,1) blockDim = (61,1,1) 
+gpu_sim_cycle = 47867091
+gpu_ipc =     496.6848
+total_dl1_misses=97064
+total_dl1_accesses=514560
+total_dl1_miss_rate= 0.188635
+gpgpu_stall_shd_mem[gl_mem][coal_stall] = 7978823
+L2 Cache Total Miss Rate = 0.568
+GPGPU-Sim PTX: pushing kernel '_Z17larger_sad_calc_8Ptii' to stream 0, gridDim= (120,67,1) blockDim = (32,4,1) 
+GPGPU-Sim PTX: pushing kernel '_Z18larger_sad_calc_16Ptii' to stream 0, gridDim= (120,67,1) blockDim = (32,1,1) 
+gpu_sim_cycle = 13113979
+gpu_ipc =      36.9372
+total_dl1_misses=3157100
+total_dl1_accesses=4743600
+total_dl1_miss_rate= 0.665549
+gpgpu_stall_shd_mem[gl_mem][coal_stall] = 185907374
+L2 Cache Total Miss Rate = 0.663
+gpu_sim_cycle = 3001246
+gpu_ipc =      36.3204
+total_dl1_misses=3758680
+total_dl1_accesses=5800860
+total_dl1_miss_rate= 0.647952
+gpgpu_stall_shd_mem[gl_mem][coal_stall] = 224415566
+L2 Cache Total Miss Rate = 0.665

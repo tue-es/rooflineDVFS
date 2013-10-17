@@ -1,0 +1,8 @@
+GPGPU-Sim PTX: pushing kernel '_Z20Convolution2D_kernelPfS_' to stream 0, gridDim= (4096,1,1) blockDim = (1024,1,1) 
+gpu_sim_cycle = 470602
+gpu_ipc =     551.8917
+total_dl1_misses=405108
+total_dl1_accesses=1951884
+total_dl1_miss_rate= 0.207547
+gpgpu_stall_shd_mem[gl_mem][coal_stall] = 780103
+L2 Cache Total Miss Rate = 0.489

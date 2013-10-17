@@ -1,0 +1,16 @@
+GPGPU-Sim PTX: pushing kernel '_Z24block2D_hybrid_coarsen_xffPfS_iii' to stream 0, gridDim= (8,128,1) blockDim = (32,4,1) 
+gpu_sim_cycle = 1975939
+gpu_ipc =     462.7932
+total_dl1_misses=1202977
+total_dl1_accesses=1218936
+total_dl1_miss_rate= 0.986907
+gpgpu_stall_shd_mem[gl_mem][coal_stall] = 12059968
+L2 Cache Total Miss Rate = 0.797
+GPGPU-Sim PTX: pushing kernel '_Z24block2D_hybrid_coarsen_xffPfS_iii' to stream 0, gridDim= (8,128,1) blockDim = (32,4,1) 
+gpu_sim_cycle = 1955932
+gpu_ipc =     467.5270
+total_dl1_misses=2405814
+total_dl1_accesses=2437872
+total_dl1_miss_rate= 0.986850
+gpgpu_stall_shd_mem[gl_mem][coal_stall] = 24331112
+L2 Cache Total Miss Rate = 0.793
